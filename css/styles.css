@@ -1,0 +1,459 @@
+/* 전체적인 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* 네비게이션 바 스타일 */
+header {
+  background-color: #ffa500;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #ffa500;
+}
+
+/* 섹션 스타일 */
+section {
+  padding: 50px;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+section h1 {
+  color: #ffa500;
+  margin-bottom: 30px;
+}
+
+/* 갤러리 스타일 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 전체 스타일 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* 활성화 버튼 스타일 */
+
+nav ul li a.active {
+  font-weight: bold;
+  background-color: orange;
+}
+
+nav ul li a.active:hover {
+  background-color: orange;
+  opacity: 0.8;
+  cursor: default;
+}
+
+/* 전체 스타일 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeline-container {
+  margin-top: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.timeline-date {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.timeline-content {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.timeline-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timeline-description {
+  color: #555;
+  font-size: 14px;
+}
+
+/* 활성화 버튼 스타일 */
+
+nav ul li a.active {
+  font-weight: bold;
+  background-color: orange;
+}
+
+nav ul li a.active:hover {
+  background-color: orange;
+  opacity: 0.8;
+  cursor: default;
+}
+
+/* 전체 스타일 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-lg-4,
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.image-overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+.image-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.image-description {
+  font-size: 14px;
+}
+
+/* 활성화 버튼 스타일 */
+
+nav ul li a.active {
+  font-weight: bold;
+  background-color: orange;
+}
+
+nav ul li a.active:hover {
+  background-color: orange;
+  opacity: 0.8;
+  cursor: default;
+}
+
+/* 전체 스타일 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a.active {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-lg-4,
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sns-feed {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.sns-feed-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sns-feed-content {
+  padding: 10px;
+}
+
+.sns-feed-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sns-feed-description {
+  font-size: 14px;
+}
+
+/* 활성화 버튼 스타일 */
+
+nav ul li a.active {
+  font-weight: bold;
+  background-color: orange;
+}
+
+nav ul li a.active:hover {
+  background-color: orange;
+  opacity: 0.8;
+  cursor: default;
+}

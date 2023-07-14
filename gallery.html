@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MonTube - 갤러리</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">홈</a></li>
+          <li><a href="#about">소개</a></li>
+          <li><a href="#portfolio">포트폴리오</a></li>
+          <li><a href="#gallery">갤러리</a></li>
+          <li><a href="#sns">SNS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section id="gallery" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Montube 갤러리</h2>
+          <p class="text-center">Montube의 멋진 그림을 감상해보세요!</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="gallery-item">
+                <img src="images/image1.jpg" alt="이미지 1" />
+                <div class="image-overlay">
+                  <div class="image-overlay-content">
+                    <h4 class="image-title">이미지 제목 1</h4>
+                    <p class="image-description">이미지 설명 1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="gallery-item">
+                <img src="images/image2.jpg" alt="이미지 2" />
+                <div class="image-overlay">
+                  <div class="image-overlay-content">
+                    <h4 class="image-title">이미지 제목 2</h4>
+                    <p class="image-description">이미지 설명 2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 추가 이미지 아이템 추가 -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
